@@ -11,15 +11,73 @@
             <HorizontalStackLayout>
                 <Image
                     Source="usd.png"
+                    WidthRequest="50"
                     />
                 <Label
                     Text="USD"
                     FontSize="40"
-                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="10"
                     />
-                
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label x:Name="lblUSDks" Text="Kurs sprzedaży: "/>
+                    <Label x:Name="lblUSDkz" Text="Kurs skupu: "/>
+                </VerticalStackLayout>
+                <Image
+                    Source="up.png"
+                    x:Name="imgUSD"
+                    WidthRequest="40"
+                    />
 
             </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Image
+                    Source="eur.png"
+                    WidthRequest="50"
+                    />
+                <Label
+                    Text="EUR"
+                    FontSize="40"
+                    VerticalOptions="Center"
+                    Margin="10"
+                    />
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label x:Name="lblEURks" Text="Kurs sprzedaży: "/>
+                    <Label x:Name="lblEURkz" Text="Kurs skupu: "/>
+                </VerticalStackLayout>
+                <Image
+                    Source="up.png"
+                    x:Name="imgEUR"
+                    WidthRequest="40"
+                    />
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout>
+                <Image
+                    Source="gbp.png"
+                    WidthRequest="50"
+                    />
+                <Label
+                    Text="GBP"
+                    FontSize="40"
+                    VerticalOptions="Center"
+                    Margin="10"
+                    />
+                <VerticalStackLayout VerticalOptions="Center">
+                    <Label x:Name="lblGBPks" Text="Kurs sprzedaży: "/>
+                    <Label x:Name="lblGBPkz" Text="Kurs skupu: "/>
+                </VerticalStackLayout>
+                <Image
+                    Source="up.png"
+                    x:Name="imgGBP"
+                    WidthRequest="40"
+                    />
+
+            </HorizontalStackLayout>
+
+            
             <Label
                 x:Name="lblTest"
                 />
